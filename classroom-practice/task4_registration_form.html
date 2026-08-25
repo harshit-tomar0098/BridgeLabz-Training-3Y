@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1 align="center">Student Registration Form</h1>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <table border="1" cellpadding="10" cellspacing="0" width="100%">
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+            <tr>
+                <td><label for="name"><strong>Full Name</strong></label></td>
+                <td><input type="text" id="name" name="name" placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td><label for="email"><strong>Email</strong></label></td>
+                <td><input type="email" id="email" name="email" placeholder="abc@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="phone"><strong>Phone Number</strong></label></td>
+                <td><input type="tel" id="phone" name="phone" placeholder="9876543210"></td>
+            </tr>
+            <tr>
+                <td><label for="dob"><strong>Date of Birth</strong></label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td><strong>Gender</strong></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male"><label for="male"> Male</label>
+                    <input type="radio" id="female" name="gender" value="female"><label for="female"> Female</label>
+                    <input type="radio" id="other" name="gender" value="other"><label for="other"> Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Skills</strong></td>
+                <td>
+                    <input type="checkbox" id="html" name="skills" value="HTML"><label for="html"> HTML</label>
+                    <input type="checkbox" id="css" name="skills" value="CSS"><label for="css"> CSS</label>
+                    <input type="checkbox" id="javascript" name="skills" value="JavaScript"><label for="javascript"> JavaScript</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="course"><strong>Course</strong></label></td>
+                <td>
+                    <select id="course" name="course">
+                        <option value="">--Select Course--</option>
+                        <option value="cse">Computer Science Engineering</option>
+                        <option value="aiml">CSE - AI &amp; ML</option>
+                        <option value="ece">Electronics &amp; Communication</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="address"><strong>Address</strong></label></td>
+                <td><textarea id="address" name="address" rows="5" cols="35"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="resume"><strong>Upload Resume</strong></label></td>
+                <td><input type="file" id="resume" name="resume"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

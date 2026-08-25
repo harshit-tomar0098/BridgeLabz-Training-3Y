@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Card</title>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            width: 360px;
+            padding: 35px 25px;
+            background: white;
+            text-align: center;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .profile {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 25px;
+            border-radius: 50%;
+            background: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+            font-size: 24px;
+        }
+
+        h1 {
+            margin: 10px 0;
+            font-size: 30px;
+        }
+
+        h2 {
+            margin: 8px 0;
+            font-size: 21px;
+            color: #333;
+        }
+
+        .college {
+            margin: 8px 0 25px;
+            color: #777;
+            font-size: 18px;
+        }
+
+        .about {
+            color: #777;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        .skills-title {
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+
+        .skills {
+            color: #5f8fe8;
+            font-size: 17px;
+        }
+
+        .contact {
+            margin-top: 25px;
+            padding: 13px 28px;
+            border: none;
+            border-radius: 6px;
+            background: #2868dc;
+            color: white;
+            font-size: 17px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="profile">Student</div>
+        <h1>Anubhav Singh</h1>
+        <h2>Computer Science Engineering</h2>
+        <p class="college">GLA University</p>
+        <p class="about">
+            I am a passionate Computer Science student interested in Artificial Intelligence,
+            Machine Learning, Web Development, and problem solving.
+        </p>
+        <h2 class="skills-title">Skills</h2>
+        <p class="skills">HTML &nbsp; CSS &nbsp; Java &nbsp; Python &nbsp; ML</p>
+        <button class="contact">Contact Me</button>
+    </div>
+</body>
+</html>
