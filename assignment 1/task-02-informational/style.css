@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: Georgia, serif; color: #172033; background: #f4efe6; }
+header { padding: 28px 7%; background: #182b49; color: white; }
+header h1 { margin: 0; font-size: 2.5rem; }
+nav { padding: 16px 7%; background: #dbe7d2; display: flex; gap: 30px; position: sticky; top: 0; z-index: 5; }
+nav a { color: #172033; text-decoration: none; font-weight: bold; }
+section { min-height: 70vh; padding: 12vh 10%; display: flex; flex-direction: column; justify-content: center; border-bottom: 8px solid rgba(255,255,255,.7); background-attachment: fixed; background-size: cover; background-position: center; }
+section h2 { font-size: 3rem; font-weight: 700; margin: 0 0 20px; }
+section p { max-width: 700px; font-size: 1.25rem; line-height: 1.8; margin: 0; }
+.culture { background-image: linear-gradient(135deg, rgba(16,42,67,.9), rgba(90,130,80,.65)), url("https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=80"); color: white; }
+.nature { background-image: radial-gradient(circle, rgba(226,239,215,.9), rgba(70,100,60,.75)), url("https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1600&q=80"); }
+.food { background: linear-gradient(#fff8ed, #ead5b7); }
+footer { padding: 30px; text-align: center; background: #182b49; color: white; }
+@media (max-width: 650px) { section { background-attachment: scroll; } section h2 { font-size: 2rem; } }

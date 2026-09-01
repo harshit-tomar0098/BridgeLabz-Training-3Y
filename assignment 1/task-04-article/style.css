@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f8fafc; color: #1e293b; font-family: Georgia, serif; }
+header { text-align: center; padding: 70px 20px 50px; background: #172554; color: white; }
+header p:first-child { letter-spacing: 3px; font-size: .8rem; }
+header h1 { font-size: clamp(2.4rem, 6vw, 4.5rem); margin: 15px 0; }
+main { max-width: 800px; margin: 60px auto; padding: 0 24px; }
+main p { font-size: 1.2rem; line-height: 1.9; margin: 0 0 30px; }
+main p::first-letter { font-size: 3.5rem; font-weight: bold; float: left; line-height: .8; padding-right: 7px; }
+main p::first-line { font-weight: bold; }
+mark { background: #fde68a; color: #713f12; padding: 2px 5px; }
+blockquote { margin: 40px 0; padding: 25px 30px; border-left: 7px solid #4f46e5; background: #eef2ff; font-size: 1.35rem; font-style: italic; line-height: 1.7; }
