@@ -1,0 +1,11 @@
+/* Every transformation activates smoothly on hover */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #eef2ff; color: #172033; }
+main { min-height: 100vh; padding: 60px 25px; text-align: center; }
+.transform-container { display: flex; justify-content: center; gap: 50px; flex-wrap: wrap; margin-top: 80px; }
+.transform-item { width: 150px; }
+.box { height: 120px; display: flex; justify-content: center; align-items: center; background: #6366f1; color: white; border-radius: 12px; transition: all 0.4s ease; }
+.rotate:hover { transform: rotate(12deg); }
+.scale:hover { transform: scale(1.2); }
+.translate:hover { transform: translate(20px, -15px); }
+.skew:hover { transform: skew(12deg, 5deg); }

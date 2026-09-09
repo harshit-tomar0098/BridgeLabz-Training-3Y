@@ -1,0 +1,14 @@
+/* Horizontal navbar with smooth hover transitions */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f8fafc; color: #172033; }
+.navbar { display: flex; justify-content: center; align-items: center; background: #111827; }
+.navbar a { color: white; text-decoration: none; padding: 18px 28px; border-bottom: 3px solid transparent; transition: all 0.3s ease; }
+.navbar a:hover { background: #374151; border-bottom-color: #60a5fa; }
+.navbar a.active { background: #2563eb; border-bottom-color: white; }
+.hero { min-height: 75vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 30px; }
+footer { text-align: center; padding: 20px; background: #111827; color: white; }
+/* Responsive layout below 700px */
+@media (max-width: 700px) {
+    .navbar { flex-direction: column; }
+    .navbar a { width: 100%; text-align: center; border-bottom: 1px solid #374151; }
+}

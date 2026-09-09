@@ -1,0 +1,13 @@
+/* Different border styles and padding values */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f7fb; color: #172033; text-align: center; }
+header, footer { padding: 20px; background: #172033; color: white; }
+.box-container { display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap; padding: 50px; }
+.box { width: 180px; min-height: 120px; display: flex; align-items: center; justify-content: center; background: white; transition: border-color 0.3s ease; }
+.solid { border: 5px solid #315efb; padding: 10px; }
+.dashed { border: 5px dashed #e67e22; padding: 20px; }
+.double { border: 8px double #27ae60; padding: 30px; }
+.groove { border: 8px groove #8e44ad; padding: 15px; }
+.rounded { border: 5px solid #e74c3c; border-radius: 30px; padding: 25px; }
+/* Hover changes border color smoothly */
+.box:hover { border-color: #111827; }

@@ -1,0 +1,15 @@
+/* Typography examples with different families, sizes and weights */
+* { box-sizing: border-box; }
+body { margin: 0; background: #f8fafc; color: #1e293b; }
+article { max-width: 800px; margin: 60px auto; padding: 40px; background: white; box-shadow: 0 8px 25px #d1d5db; }
+h1 { font-family: Georgia, serif; font-size: 42px; font-weight: 700; text-align: center; }
+p { font-size: 18px; line-height: 1.8; text-align: justify; }
+.serif { font-family: Georgia, serif; }
+.sans { font-family: Arial, sans-serif; font-weight: 600; }
+.wide { font-family: Verdana, sans-serif; letter-spacing: 1.5px; }
+mark { background: #fde68a; color: #92400e; padding: 2px 5px; }
+strong { color: #1d4ed8; }
+em { color: #9333ea; }
+/* Pseudo-elements for article emphasis */
+article p:first-of-type::first-letter { font-size: 3em; font-weight: bold; float: left; line-height: 0.9; margin-right: 8px; }
+article p:first-of-type::first-line { font-weight: bold; }

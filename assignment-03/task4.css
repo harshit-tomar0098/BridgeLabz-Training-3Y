@@ -1,0 +1,11 @@
+/* Different shadows create different depth levels */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f8fafc; color: #172033; }
+main { min-height: 100vh; padding: 60px 30px; text-align: center; }
+h1 { text-shadow: 3px 3px 5px #b6becb; }
+.cards { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin-top: 50px; }
+.card { width: 220px; padding: 55px 25px; background: white; border-radius: 18px; transition: all 0.3s ease; }
+.shadow-one { box-shadow: 4px 4px 12px #aab2bf; }
+.shadow-two { box-shadow: 0 10px 25px #9ca3af; }
+.shadow-three { box-shadow: 8px 8px 0 #cbd5e1; }
+.card:hover { transform: translateY(-12px); box-shadow: 0 20px 35px #7c8798; }

@@ -1,0 +1,10 @@
+/* Box model layers are differentiated with backgrounds and outlines */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f1f5f9; color: #172033; }
+main { min-height: 100vh; text-align: center; padding: 50px 25px; }
+.models { display: flex; justify-content: center; gap: 70px; flex-wrap: wrap; }
+.model { width: 260px; margin: 30px; padding: 25px; border: 12px solid #6366f1; background: #fde68a; outline: 8px dashed #16a34a; outline-offset: 8px; }
+.model .content { background: #bfdbfe; padding: 25px; min-height: 100px; }
+.default { box-sizing: content-box; }
+.border-box { box-sizing: border-box; }
+.legend { max-width: 700px; margin: 50px auto; padding: 25px; background: white; border-radius: 12px; }

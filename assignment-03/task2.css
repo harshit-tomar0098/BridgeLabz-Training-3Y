@@ -1,0 +1,9 @@
+/* Width and height units demonstration */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #eef2ff; }
+.layout { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 25px; padding: 30px; }
+.size-box { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; border-radius: 14px; padding: 20px; overflow: hidden; }
+.box-one { width: 300px; height: 150px; background: #ffd6a5; }
+.box-two { width: 60%; height: 25vh; min-height: 140px; max-width: 700px; background: #bde0fe; }
+.box-three { width: 18em; height: 12em; background: #caffbf; overflow: auto; }
+.extra { width: 280px; }

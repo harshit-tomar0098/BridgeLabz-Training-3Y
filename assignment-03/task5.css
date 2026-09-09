@@ -1,0 +1,24 @@
+/* Attribute selectors */
+input[type="text"] { border: 3px solid #2563eb; }
+[href^="https"] { color: #059669; font-weight: bold; }
+/* Pseudo-classes */
+a:hover { background: #fde68a; }
+input:focus { outline: 3px solid #f59e0b; }
+.links li:nth-child(2) { background: #e0e7ff; }
+/* Pseudo-elements */
+.note::before { content: "Tip: "; font-weight: bold; }
+.note::after { content: " ✓"; color: #16a34a; }
+/* Child combinator: direct children only */
+.content > h2 { text-decoration: underline; }
+/* Adjacent sibling: first paragraph immediately after note */
+.note + p { color: #dc2626; }
+/* General sibling: all later paragraphs */
+.note ~ p { font-style: italic; }
+/* Descendant combinator */
+.content li a { padding: 5px; }
+/* General page styling */
+body { margin: 0; font-family: Arial, sans-serif; background: #f8fafc; color: #172033; }
+main { max-width: 800px; margin: auto; padding: 50px 25px; }
+.content { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 8px 25px #d1d5db; }
+.links li { margin: 12px 0; padding: 8px; }
+input { display: block; width: 100%; padding: 12px; margin: 12px 0; border-radius: 8px; box-sizing: border-box; }
