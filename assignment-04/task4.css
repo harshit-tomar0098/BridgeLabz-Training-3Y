@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f1f5f9; color: #1e293b; }
+header, footer { text-align: center; padding: 22px; }
+.content { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 14px; }
+p { line-height: 1.6; } /* Element selector */
+.highlight { background: #fef3c7; padding: 10px; } /* Class selector */
+#special { color: #dc2626; font-weight: bold; } /* ID selector */
+a[target="_blank"] { color: #2563eb; } /* Attribute selector */
+.combinators p { color: #475569; } /* Descendant combinator */
+.combinators > h2 { color: #7c3aed; } /* Child combinator > */
+h2 + p { font-weight: bold; } /* Adjacent sibling combinator + */
+h2 ~ p { border-left: 3px solid #94a3b8; padding-left: 10px; } /* General sibling ~ */
+.combinators li { margin: 8px; }

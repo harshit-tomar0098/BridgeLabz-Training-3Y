@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; font-family: Arial, sans-serif; background: #eef2ff; display: flex; justify-content: center; align-items: center; text-align: center; }
+.effects { display: flex; justify-content: center; align-items: center; gap: 30px; flex-wrap: wrap; margin-top: 30px; }
+button, a, .card { padding: 18px 28px; border-radius: 12px; box-shadow: 0 5px 15px #0002; transition: .3s ease-in-out; }
+button { border: 0; background: #2563eb; color: white; cursor: pointer; }
+a { background: white; color: #2563eb; text-decoration: none; }
+.card { background: #f59e0b; color: white; }
+button:hover, a:hover { transform: scale(1.1); background: #16a34a; color: white; }
+button:active { transform: scale(.96); }
+.card:hover { transform: rotate(4deg) scale(1.08); box-shadow: 0 10px 25px #0003; }
