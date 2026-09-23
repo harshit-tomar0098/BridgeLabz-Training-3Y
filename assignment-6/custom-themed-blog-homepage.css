@@ -1,0 +1,5 @@
+/* Q5: Override Bootstrap CSS variables for a custom theme. */
+:root { --bs-primary: #6f42c1; --bs-primary-rgb: 111, 66, 193; --bs-font-sans-serif: 'Poppins', sans-serif; }
+body { font-family: var(--bs-font-sans-serif); }
+.card { transition: transform .3s ease; }
+.card:hover { transform: translateY(-6px); }
