@@ -1,3 +1,0 @@
-/* Q2: Custom sizing while Bootstrap handles responsive layout. */
-.profile-img { width: 180px; height: 180px; object-fit: cover; }
-.contact-form { max-width: 600px; }
