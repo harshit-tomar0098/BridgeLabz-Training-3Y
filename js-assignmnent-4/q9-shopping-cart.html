@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q9 - Shopping Cart</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 40px auto; padding: 0 16px; }
+        label { display: block; margin-top: 14px; }
+        input { box-sizing: border-box; width: 100%; padding: 10px; margin-top: 5px; }
+        button { margin-top: 16px; padding: 10px 16px; }
+        li { margin: 8px 0; }
+        #message { margin-top: 12px; }
+    </style>
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    <h2>Items</h2>
+    <ul id="itemsList"></ul>
+    <p id="subtotal"></p>
+    <form id="couponForm">
+        <label for="coupon">Coupon code (examples: SAVE20, DISC10)</label>
+        <input id="coupon" placeholder="SAVE20">
+        <button type="submit">Apply Coupon</button>
+    </form>
+    <p id="message" aria-live="polite"></p>
+    <h2 id="finalTotal"></h2>
+    <script src="q9-shopping-cart.js"></script>
+</body>
+</html>
