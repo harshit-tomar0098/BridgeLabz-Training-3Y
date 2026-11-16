@@ -1,0 +1,26 @@
+kafka:
+  bootstrap_servers: "localhost:9094"
+  topics:
+    transactions: "transactions"
+    scored_transactions: "scored-transactions"
+    labels: "labels"
+
+redis:
+  host: "localhost"
+  port: 6379
+  db: 0
+
+postgres:
+  url: "postgresql://admin:password@localhost:5432/fraud_db"
+
+thresholds:
+  auto_approve: 0.1
+  auto_block: 0.8
+
+costs:
+  missed_fraud: 100.0  # Average cost of a fraud event
+  false_decline: 5.0   # Cost of declining a legit transaction (loss of revenue/trust)
+  manual_review: 2.0   # Cost of analyst review time
+
+windows:
+  user_counts: [60, 3600, 86400] # 1m, 1hr, 24hr in seconds
